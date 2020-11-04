@@ -67,13 +67,13 @@ https://github.com/TimvanAlphen/functional-programming/blob/99b6888f349b306ff113
 
 ![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Sketch1.jpg)
 
-![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schets rdw.jpg)
+![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schetsrdw.jpg)
 
 With this data visualisation I want to compare Company owned parkinglocations to township owned parking locations. To do this I came up with this rough sketch. First the user selects two parkinglocations from the dropdowns. One for company owned locations and one for township owned ones. Two stacked-barcharts will be generated that compare the price of the parkinglocation, the amount of spots for people with a disability and the amount of special parking days. This way company and township parking spots are easily compared.
 
-![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schets rdw2.jpg)
+![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schetsrdw2.jpg)
 
-![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schets rdw3.jpg)
+![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schetsrdw3.jpg)
 
 
 ### Source
