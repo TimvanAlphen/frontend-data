@@ -57,13 +57,13 @@ Variables:
 * NameSpecialDay (This variable shows what special days like sundays the parkinglocations have. (This doesn't say anything about how much the prices change.))
 * DateSpecialDay (This variable shows the dates of these special days.)
 
-## Most interesting functional pattern:
+### Most interesting functional pattern:
 
 This function looks through all the answers in in the list of eye colors than transforms all the names to uppercase with .map. It than filters out the invalid hex codes by looking if they start with an '#' and are 7 characters long using .filter.
 
 https://github.com/TimvanAlphen/functional-programming/blob/99b6888f349b306ff1139859019f5bc8170ccce3/exercise/cleaneyes2.js#L30
 
-### Early sketch
+### Early sketch stacked bar chart
 
 ![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Sketch1.jpg)
 
@@ -71,10 +71,15 @@ https://github.com/TimvanAlphen/functional-programming/blob/99b6888f349b306ff113
 
 With this data visualisation I want to compare Company owned parkinglocations to township owned parking locations. To do this I came up with this rough sketch. First the user selects two parkinglocations from the dropdowns. One for company owned locations and one for township owned ones. Two stacked-barcharts will be generated that compare the price of the parkinglocation, the amount of spots for people with a disability and the amount of special parking days. This way company and township parking spots are easily compared.
 
+### Sketch bar chart
+
 ![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schetsrdw2.jpg)
+
+This datavisualisation compares company owned parking locations to township owned parking locations. The user can choose wich parking location to compare with the dropdown menu's. With the checkboxes the user can choose what data to compare. The data is visualized in a bar chart.
 
 ![Sketch](https://github.com/TimvanAlphen/frontend-data/blob/main/img/Schetsrdw3.jpg)
 
+This datavisualisation compares company owned parking locations to township owned parking locations. The user can choose wich parking location to compare with the dropdown menu's. With the checkboxes the user can choose what data is shown. The data is visualized in a bar chart. The barcharts aren't shown next to each other because barcharts wich different y axis are difficult to compare.
 
 ### Source
 These datasets are taken from opendata.rdw.nl.
