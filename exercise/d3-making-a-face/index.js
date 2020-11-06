@@ -1,3 +1,5 @@
+//Code by Curran tutorial https://www.youtube.com/watch?v=-RQWC4I2I1s&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi&index=4&ab_channel=CurranKelleher
+
 import {select, arc } from 'd3';
 
 const svg = select('svg');
